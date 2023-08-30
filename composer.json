@@ -1,0 +1,21 @@
+{
+    "name": "spaf/simputils-dev-tools",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "spaf\\simputils\\devtools\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ivan Ponomarev",
+            "email": "i.ponomarev@pandev.tech"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.0",
+        "symfony/console": "^6"
+    }
+}
